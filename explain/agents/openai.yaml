@@ -1,0 +1,6 @@
+interface:
+  display_name: "Explain"
+  short_description: "Пошаговый технический разбор последней задачи"
+  default_prompt: "Используй $explain, чтобы подготовить учебный разбор последней выполненной задачи."
+policy:
+  allow_implicit_invocation: false
