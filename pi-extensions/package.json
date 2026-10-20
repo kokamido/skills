@@ -1,0 +1,12 @@
+{
+  "name": "kokamido-pi-extensions",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/walltime.ts", "./extensions/openai-weekly-limits.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
